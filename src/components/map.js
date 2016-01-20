@@ -1,4 +1,5 @@
 import React from 'react'
+import state from '../state'
 var mapStyle = 'mapbox://styles/dvingo/cij4dtf6p001j8rm7bhiobb0e'
 mapboxgl.accessToken = 'pk.eyJ1IjoiZHZpbmdvIiwiYSI6ImNpZWhhMTRraTAwOXhzNm0zdnpodXV3dDMifQ.PY9OHTkivg2Xmqhd6gTNPQ'
 
@@ -11,6 +12,7 @@ export default React.createClass({
       center: [-73.94, 40.73],
       zoom: 10
     })
+    state.map = map
   },
 
   render() {
