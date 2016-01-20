@@ -7,9 +7,11 @@ export default React.createClass({
       backgroundColor: bgColor,
       padding: '0.2em'
     }
+    console.log('got data: %s', this.props.data)
+    console.dir(this.props.data)
     return (
       <div style={style}>
-        <p>{this.props.data.name}</p>
+        <p>{this.props.data.stationName}</p>
       </div>
     )
   }
