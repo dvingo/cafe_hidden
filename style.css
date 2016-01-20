@@ -1,0 +1,23 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+#app {
+  height: 100%;
+}
+
+/* Typeahead classes.*/
+
+.react-typeahead-input {
+  width: 80%;
+  line-height: 2;
+}
+
+.react-typeahead-options {
+  z-index: 1;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
